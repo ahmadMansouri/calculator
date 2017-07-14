@@ -15,5 +15,10 @@ namespace Calculator
 
             return result;
         }
+
+        public int Add(int a, int b)
+        {
+            return 0;
+        }
     }
 }
