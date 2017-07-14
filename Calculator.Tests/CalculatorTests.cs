@@ -18,11 +18,16 @@ namespace Calculator.Tests
             var calculator = new Calculator();
             int result = calculator.Add(1, 1);
 
-            Assert.Equal(0, result);
-            
+            Assert.Equal(0, result);            
 
+        }
 
-
+        [Fact]
+        public void WhenMinusTwoNumbersThenReturnsZero()
+        {
+            var calculator = new Calculator();
+            var result = calculator.Minus(2, 1);
+            Assert.Equal(1, result);
         }
 
 
