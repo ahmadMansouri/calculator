@@ -16,6 +16,11 @@ namespace Calculator
             return result;
         }
 
+        public double Minus(double FirstNum, double SecondNum)
+       {            
+            double result = FirstNum - SecondNum;
+            return result;
+        }
         public int Add(int a, int b)
         {
             return 0;
