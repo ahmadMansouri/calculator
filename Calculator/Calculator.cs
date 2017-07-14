@@ -10,8 +10,9 @@ namespace Calculator
     {
         public double Divide(double firstNum, double secondNum)
         {
-            var result = 0;
-            //aidin
+            var result = 0;//Test 2//
+            var reza=200
+
             return result;
         }
     }
