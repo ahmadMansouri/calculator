@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Calculator
 {
+   
     public class Calculator
     {
         public double Divide(double firstNum, double secondNum)
         {
             var result = 0;//Test 2//
             var reza = 200;
+            var ali = 100;
 
             return result;
         }
