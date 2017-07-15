@@ -27,25 +27,8 @@ namespace Calculator.Tests
 
         }
      
-        public void WhenPassTomanConvertItToUSD()
-        {
-            int result = sut.convertToUSD("100");
+     
 
-
-        }
-
-        [BeforeScenario]
-        public void BeforeScenario()
-        {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArguments("disable-infobars");
-            ChromeDriver driver = new ChromeDriver(options);
-        }
-        [AfterScenario]
-        public void AfterScenario()
-        {
-            driver.Quit();
-        }
-
+       
     }
 }

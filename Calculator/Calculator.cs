@@ -13,6 +13,7 @@ namespace Calculator
         {
             var result = 0;//Test 2//
             var reza = 200;
+            var ali = 100;
 
             return result;
         }
